@@ -38,6 +38,20 @@ public class StudentTest {
 
         student.allPrint();
 
-        student.avg(1);
+        student.avgHistory(1);
+        student.avgLung(1);
+        student.avgMath(1);
+        student.avgSome(1);
+        student.avgPsych(1);
+        student.avgHistory(2);
+        student.avgLung(2);
+        student.avgMath(2);
+        student.avgSome(2);
+        student.avgPsych(2);
+        student.avgHistory(3);
+        student.avgLung(3);
+        student.avgMath(3);
+        student.avgSome(3);
+        student.avgPsych(3);
     }
 }

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a32e9e8-f9f3-4609-aeaf-2f7d1fcc669e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Kljaksa/homeWorks/homeWork13/Student.class" afterPath="" />
+    <list default="true" id="8a32e9e8-f9f3-4609-aeaf-2f7d1fcc669e" name="Default" comment="Avg">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Kljaksa/homeWorks/homeWork13/CompareStudent.class" afterPath="$PROJECT_DIR$/out/production/Kljaksa/homeWorks/homeWork13/CompareStudent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Kljaksa/homeWorks/homeWork13/Student.class" afterPath="$PROJECT_DIR$/out/production/Kljaksa/homeWorks/homeWork13/Student.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Kljaksa/homeWorks/homeWork13/StudentTest.class" afterPath="$PROJECT_DIR$/out/production/Kljaksa/homeWorks/homeWork13/StudentTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/homeWorks/homeWork13/CompareLastName.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork13/CompareLastName.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/homeWorks/homeWork13/Student.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork13/Student.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/homeWorks/homeWork13/StudentChainedComporator.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork13/StudentChainedComporator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/homeWorks/homeWork13/StudentTest.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork13/StudentTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Student.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/homeWorks/homeWork13/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="158" column="14" lean-forward="false" selection-start-line="158" selection-start-column="14" selection-end-line="158" selection-end-column="14" />
+            <state relative-caret-position="1754">
+              <caret line="219" column="50" lean-forward="false" selection-start-line="219" selection-start-column="50" selection-end-line="219" selection-end-column="50" />
               <folding>
                 <element signature="e#1160#1161#0" expanded="true" />
                 <element signature="e#1191#1192#0" expanded="true" />
@@ -121,11 +124,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StudentTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/homeWorks/homeWork13/StudentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+            <state relative-caret-position="725">
+              <caret line="54" column="26" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -213,8 +216,8 @@
         <option value="$PROJECT_DIR$/src/homeWorks/homeWork13/CompareLastName.java" />
         <option value="$PROJECT_DIR$/src/homeWorks/homeWork13/StudentChainedComporator.java" />
         <option value="$PROJECT_DIR$/src/homeWorks/homeWork13/CompareStudent.java" />
-        <option value="$PROJECT_DIR$/src/homeWorks/homeWork13/StudentTest.java" />
         <option value="$PROJECT_DIR$/src/homeWorks/homeWork13/Student.java" />
+        <option value="$PROJECT_DIR$/src/homeWorks/homeWork13/StudentTest.java" />
       </list>
     </option>
   </component>
@@ -557,7 +560,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516719451972</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="SortStudents">
+      <created>1516719478029</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1516719478029</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -571,7 +581,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8637387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6002252" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277027" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -985,23 +995,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/homeWorks/homeWork13/StudentTest.java">
+    <entry file="file://$PROJECT_DIR$/src/homeWorks/homeWork13/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        <state relative-caret-position="1754">
+          <caret line="219" column="50" lean-forward="false" selection-start-line="219" selection-start-column="50" selection-end-line="219" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1160#1161#0" expanded="true" />
+            <element signature="e#1191#1192#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/homeWorks/homeWork13/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/homeWorks/homeWork13/StudentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="158" column="14" lean-forward="false" selection-start-line="158" selection-start-column="14" selection-end-line="158" selection-end-column="14" />
+        <state relative-caret-position="725">
+          <caret line="54" column="26" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
           <folding>
-            <element signature="e#1160#1161#0" expanded="true" />
-            <element signature="e#1191#1192#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

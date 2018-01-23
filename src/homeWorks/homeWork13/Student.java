@@ -153,8 +153,8 @@ public class Student {
         }
     }
 
-    public void avg(Integer course){
-        System.out.println("Средний бал для курса = " + course);
+    public void avgHistory(Integer course){
+        System.out.println("Средний бал для курса = " + course + " по истории ");
         int count = 0;
         double avg = 0;
         for (Student student : students){
@@ -162,6 +162,62 @@ public class Student {
             if (student.getCourse()==course){
                 count +=1;
                 avg +=student.getMarkOfHistory();
+            }
+        }
+        System.out.println(avg/count);
+    }
+
+    public void avgMath(Integer course){
+        System.out.println("Средний бал для курса = " + course + " по математике");
+        int count = 0;
+        double avg = 0;
+        for (Student student : students){
+
+            if (student.getCourse()==course){
+                count +=1;
+                avg +=student.getMarkOfMath();
+            }
+        }
+        System.out.println(avg/count);
+    }
+
+    public void avgPsych(Integer course){
+        System.out.println("Средний бал для курса = " + course + " по психологии ");
+        int count = 0;
+        double avg = 0;
+        for (Student student : students){
+
+            if (student.getCourse()==course){
+                count +=1;
+                avg +=student.getMarkOfPsychology();
+            }
+        }
+        System.out.println(avg/count);
+    }
+
+    public void avgLung(Integer course){
+        System.out.println("Средний бал для курса = " + course + " по языкам");
+        int count = 0;
+        double avg = 0;
+        for (Student student : students){
+
+            if (student.getCourse()==course){
+                count +=1;
+                avg +=student.getMarkOfLunguage();
+            }
+        }
+        System.out.println(avg/count);
+    }
+
+    public void avgSome(Integer course){
+        System.out.println("Средний бал для курса = " + course + "по чему-то");
+        int count = 0;
+        double avg = 0;
+        for (Student student : students){
+
+            if (student.getCourse()==course){
+                count +=1;
+                avg +=student.getMarkOfSomething();
             }
         }
         System.out.println(avg/count);
