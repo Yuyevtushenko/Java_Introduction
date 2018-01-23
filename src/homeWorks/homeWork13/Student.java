@@ -1,10 +1,8 @@
 package homeWorks.homeWork13;
 
-import java.util.Comparator;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
-public class Student implements Comparable<Student> {
+public class Student {
     private String firstName;
     private String lastname;
     private String fathersName;
@@ -15,7 +13,7 @@ public class Student implements Comparable<Student> {
     private int markOfLunguage;
     private int markOfPsychology;
     private int markOfSomething;
-    Set<Student> userSet = new TreeSet<>(new CompareStudent());
+    ArrayList<Student> students = new ArrayList<>();
 
 
     public Student() {
@@ -36,8 +34,8 @@ public class Student implements Comparable<Student> {
         this.markOfSomething = markOfSomething;
     }
 
-    public Set<Student> getUserSet() {
-        return userSet;
+    public ArrayList<Student> getStudents() {
+        return students;
     }
 
     public String getFirstName() {
@@ -141,10 +139,32 @@ public class Student implements Comparable<Student> {
         System.out.println(toString());
     }
 
-    @Override
-    public int compareTo(Student o) {
-        return this.lastname.compareTo(o.lastname);
+    public void sortStudents() {
+        Collections.sort(getStudents(), new StudentChainedComporator(
+                new CompareStudent(),
+                new CompareLastName()
+        ));
     }
 
+    public void allPrint() {
 
+        for (Student students : students) {
+            students.printAbout();
+        }
+    }
+
+    public void avg(Integer course){
+        System.out.println("Средний бал для курса = " + course);
+        int count = 0;
+        double avg = 0;
+        for (Student student : students){
+
+            if (student.getCourse()==course){
+                count +=1;
+                avg +=student.getMarkOfHistory();
+            }
+        }
+        System.out.println(avg/count);
+    }
 }
+
