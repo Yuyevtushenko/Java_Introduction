@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a32e9e8-f9f3-4609-aeaf-2f7d1fcc669e" name="Default" comment="SortStudents">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork13/CompareLastName.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork13/StudentChainedComporator.java" />
+    <list default="true" id="8a32e9e8-f9f3-4609-aeaf-2f7d1fcc669e" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Kljaksa/homeWorks/homeWork13/Student.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Kljaksa/homeWorks/homeWork13/StudentTest.class" afterPath="$PROJECT_DIR$/out/production/Kljaksa/homeWorks/homeWork13/StudentTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/homeWorks/homeWork13/CompareStudent.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork13/CompareStudent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/homeWorks/homeWork13/Student.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork13/Student.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/homeWorks/homeWork13/StudentTest.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork13/StudentTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/homeWorks/homeWork13/CompareLastName.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork13/CompareLastName.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/homeWorks/homeWork13/StudentChainedComporator.java" afterPath="$PROJECT_DIR$/src/homeWorks/homeWork13/StudentChainedComporator.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -553,6 +550,14 @@
       <option name="presentableId" value="Default" />
       <updated>1511783678635</updated>
     </task>
+    <task id="LOCAL-00001" summary="SortStudents">
+      <created>1516719451972</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1516719451972</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
